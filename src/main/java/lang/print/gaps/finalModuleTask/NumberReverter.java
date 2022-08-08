@@ -22,7 +22,7 @@ public class NumberReverter {
         
     reverse = reverse * 10 + remainder;  
         
-    System.out.println("Reversed number = " +  reverse);
+    System.out.println(reverse);
         
     }
 }
