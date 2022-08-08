@@ -6,19 +6,19 @@ public class NumberReverter {
         
     int reverse = 0, remainder;
         
-    remainder = n % 10;
+    remainder = number % 10;
         
     reverse = reverse * 10 + remainder;
         
-    n /= 10;    
+    number /= 10;    
         
-    remainder = n % 10;
+    remainder = number % 10;
         
     reverse = reverse * 10 + remainder;
         
-    n /= 10;  
+    number /= 10;  
         
-    remainder = n % 10;
+    remainder = number % 10;
         
     reverse = reverse * 10 + remainder;  
         
